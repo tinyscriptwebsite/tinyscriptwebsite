@@ -13,6 +13,8 @@ import bar from "../assets/newfigma/Bar.svg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
+
+
 const page = () => {
   const cards = [
     {

@@ -18,7 +18,6 @@ const HomePage = () => {
           <Help />
           <OurWork />
           <OurTech />
-          {/* </div> */}
         </div>
         <Footer />
       </div>
