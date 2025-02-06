@@ -2,7 +2,7 @@ import Header from "@/app/components/layout/Header";
 import Pages from "../components/pages";
 import Footer from "@/app/components/layout/Footer";
 import Image from "next/image";
-import portfolio from "../assets/newfigma/portfolio/portfolio.svg";
+import portfolio from "../assets/newfigma/portfolio/Portfolio.svg";
 import condo from "../assets/newfigma/portfolio/CondominiumLogo.png";
 import Attendance from "../assets/newfigma/portfolio/AttendancePortalLogo.png";
 import shivoham from "../assets/newfigma/portfolio/shivohamphotography.png";
