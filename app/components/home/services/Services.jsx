@@ -8,7 +8,6 @@ import uiuxIcon from "../../../assets/newfigma/services/UI-UX designer icon.svg"
 import ecommerceIcon from "../../../assets/newfigma/services/E-Commerce Development.svg";
 import mobiledevIcon from "../../../assets/newfigma/services/Mobile app Development.svg";
 import BarIcon from "../../../assets/newfigma/Bar.svg";
-import stepImage from "../../../assets/newfigma/Steps.svg";
 import Image from "next/image";
 
 const Services = () => {
