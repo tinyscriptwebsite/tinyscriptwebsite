@@ -1,0 +1,108 @@
+/* ContactForm.module.css */
+
+.contactContainer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  background-color: var(--light-gray);
+  margin-block: 5rem;
+}
+
+.leftSection {
+  width: 60%;
+  padding: 100px;
+}
+
+.rightSection {
+  width: 40%;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rightSection p {
+  margin-top: 1rem;
+}
+
+.heading {
+  color: var(--light-blue);
+}
+
+.subHeading {
+  margin-top: 20px;
+}
+
+.contactform {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform input,
+.contactform textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid var(--lite-black); /* Changed border color */
+  border-radius: 0; /* Removed border-radius */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+form textarea {
+  height: 100px;
+}
+
+.sendMessageBtn {
+  background-color: var(--dark-blue);
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  width: 150px;
+  padding: 10px 20px;
+}
+
+.sendMessageBtn:hover {
+  background-color: transparent;
+  border: 1px solid var(--dark-blue);
+  color: var(--dark-blue);
+}
+
+.socialIcons {
+  text-align: center;
+}
+
+.socialIcons i {
+  font-size: 24px;
+  margin: 0 25px;
+}
+
+@media screen and (max-width: 820px) {
+  .leftSection {
+    width: 90%;
+    padding: 20px;
+  }
+  .rightSection {
+    width: 100%;
+    border-radius: 25px;
+  }
+  .contactContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .socialIcons i {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .leftSection {
+    width: 90%;
+    padding: 10px;
+  }
+}
