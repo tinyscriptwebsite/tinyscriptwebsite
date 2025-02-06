@@ -49,11 +49,11 @@ function PrivacyPolicyPage() {
 
           <section className="mb-8 flex flex-col-reverse lg:flex-row items-center justify-between">
             <div className="lg:w-1/4 w-3/4 p-6 lg:p-0 flex justify-center">
-              <Lottie
+              {/* <Lottie
                 animationData={datacollection}
                 loop={true}
                 className="w-full"
-              />
+              /> */}
             </div>
             <div className="lg:w-1/2 w-full">
               <h1 className="text-black hover:text-[#4d869c] text-xl sm:text-2xl md:text-4xl font-bold md:leading-16 my-4 md:my-4">
@@ -106,17 +106,17 @@ function PrivacyPolicyPage() {
               </p>
             </div>
             <div className="lg:w-1/4 w-3/4 p-6 lg:p-0 flex justify-center">
-              <Lottie animationData={info} loop={true} className="w-full" />
+              {/* <Lottie animationData={info} loop={true} className="w-full" /> */}
             </div>
           </section>
 
           <section className="mb-8 flex flex-col-reverse lg:flex-row items-center justify-between">
             <div className="lg:w-1/4 w-3/4 p-6 lg:p-0 flex justify-center">
-              <Lottie
+              {/* <Lottie
                 animationData={policyintro}
                 loop={true}
                 className="w-full"
-              />
+              /> */}
             </div>
             <div className="lg:w-1/2 w-full">
               <h1 className="text-black hover:text-[#4d869c] text-xl sm:text-2xl md:text-4xl font-bold md:leading-16 my-4 md:my-4">
@@ -161,13 +161,13 @@ function PrivacyPolicyPage() {
               </p>
             </div>
             <div className="lg:w-1/4 w-3/4 p-6 lg:p-0 flex justify-center">
-              <Lottie animationData={cookies} loop={true} className="w-full" />
+              {/* <Lottie animationData={cookies} loop={true} className="w-full" /> */}
             </div>
           </section>
 
           <section className="mb-8 flex flex-col-reverse lg:flex-row items-center justify-between">
             <div className="lg:w-1/4 w-3/4 p-6 lg:p-0 flex justify-center">
-              <Lottie animationData={security} loop={true} className="w-full" />
+              {/* <Lottie animationData={security} loop={true} className="w-full" /> */}
             </div>
             <div className="lg:w-1/2 w-full">
               <h1 className="text-black hover:text-[#4d869c] text-xl sm:text-2xl md:text-4xl font-bold md:leading-16 my-4 md:my-4">
@@ -203,7 +203,7 @@ function PrivacyPolicyPage() {
               </p>
             </div>
             <div className="lg:w-1/4 w-3/4 p-6 lg:p-0 flex justify-center">
-              <Lottie animationData={policy} loop={true} className="w-full" />
+              {/* <Lottie animationData={policy} loop={true} className="w-full" /> */}
             </div>
           </section>
         </div>
