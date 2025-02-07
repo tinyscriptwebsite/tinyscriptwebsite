@@ -9,7 +9,7 @@ import security from "../assets/lottie/security.json";
 import cookies from "../assets/lottie/cookies.json";
 import info from "../assets/lottie/information.json";
 import policy from "../assets/lottie/policy.json";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 import Pages from "../components/pages";
 
 function PrivacyPolicyPage() {
