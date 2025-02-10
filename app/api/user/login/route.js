@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import connectDB from "../../../../database/dbconfig";
-import User from "../../../../model/User";
+import TsUser from "../../../../model/User";
 import jwt from "jsonwebtoken";
 import { NextResponse } from "next/server";
 
@@ -9,7 +9,7 @@ export async function POST(req) {
     await connectDB();
     const { email, password } = await req.json();
     console.log(email, password);
-    let user = await User.findOne({ email });
+    let user = await TsUser.findOne({ email });
     if (!user) {
       return NextResponse.json({ error: "User not found" }, { status: 404 });
     }

@@ -16,7 +16,7 @@ import { MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col font-normal justify-evenly items-center md:px-14 sm:px-12 px-6 shadow-inner w-full bg-black text-white py-12 ">
+    <footer className="flex flex-col font-normal justify-evenly items-center md:px-14 sm:px-12 px-6 shadow-inner w-full bg-black text-white py-6 ">
       <div className="flex flex-col flex-nowrap w-full justify-evenly lg:flex-row lg:items-start md:gap-8">
         {/* Site Logo and Name */}
         <div className="flex flex-row items-center justify-start md:w-auto">
@@ -39,7 +39,7 @@ const Footer = () => {
         />
 
         {/* Menu */}
-        <nav className="flex md:w-1/4 w-full flex-1 flex-col gap-2 justify-start md:mt-0 mt-8">
+        <nav className="flex md:w-1/4 w-full flex-1 flex-col gap-1 justify-start md:mt-0 mt-8">
           <h3 className="font-bold text-secondry md:text-2xl text-xl">
             Quick Links
           </h3>
@@ -95,7 +95,7 @@ const Footer = () => {
         />
 
         {/* Email and Phone and address */}
-        <div className="flex md:w-1/4 w-full flex-1 flex-col gap-2 font-normal justify-start md:mt-0 mt-8">
+        <div className="flex md:w-1/4 w-full flex-1 flex-col gap-2 font-normal justify-start md:mt-0 mt-6">
           <h3 className="font-bold text-secondry md:text-2xl text-xl">
             Get In Touch
           </h3>
@@ -161,7 +161,7 @@ const Footer = () => {
           className="md:block hidden h-[6rem]"
         />
         {/* Socials */}
-        <div className="flex md:w-1/4 w-full flex-1 flex-col gap-2 justify-start md:mt-0 mt-8">
+        <div className="flex md:w-1/4 w-full flex-1 flex-col gap-2 justify-start md:mt-0 mt-6">
           <h3 className="font-bold text-secondry md:text-2xl text-xl">
             Socials
           </h3>
@@ -191,7 +191,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between w-full flex-wrap gap-9 mt-12 md:px-12 px-0">
+      <div className="flex items-center justify-between w-full flex-wrap gap-6 mt-6 md:px-12 px-0">
         <p className="text-white text-sm md:text-start text-center">
           Copyright &copy; 2024 TinyScript Soft Tech All Rights Reserved
         </p>

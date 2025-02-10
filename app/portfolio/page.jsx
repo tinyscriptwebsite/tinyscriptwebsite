@@ -13,8 +13,6 @@ import bar from "../assets/newfigma/Bar.svg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
-
-
 const page = () => {
   const cards = [
     {
@@ -52,7 +50,7 @@ const page = () => {
     },
     {
       title: "Wellwalla",
-      desc: "With years of experience in the travel industry, Prabhusewa Tours & Travels has built a reputation for delivering exceptional travel experiences...",
+      desc: "We developed a lab booking website for easy online test scheduling and a medical store for purchasing medicines. With real-time updates and a user-friendly interface, it ensures seamless bookings and secure transactions...",
       image: Wellwalla,
       isLink: true,
       link: "https://wellwalla.com/",

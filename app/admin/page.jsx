@@ -16,6 +16,7 @@ function Page() {
   });
 
   const [isLogin, setIsLogin] = useState(true);
+  const [users, setUsers] = useState([]);
   const [signupData, setSignupData] = useState({
     username: "",
     password: "",
@@ -57,6 +58,7 @@ function Page() {
   useEffect(() => {
     const fetchUser = async () => {
       const { data } = await axios.get(`/api/user`);
+      setUsers(data.usersLength);
       if (data.usersLength > 0) setIsLogin(true);
     };
     fetchUser();
@@ -73,7 +75,7 @@ function Page() {
           {isLogin ? "Admin Login" : "Admin Signup"}
         </h2>
         <form onSubmit={handleSubmit}>
-          {isLogin ? (
+          {isLogin && (
             <>
               <div className="mb-4">
                 <label
@@ -110,7 +112,8 @@ function Page() {
                 />
               </div>
             </>
-          ) : (
+          )}
+          {!isLogin && users.usersLength === 0 && (
             <>
               <div className="mb-4">
                 <label
