@@ -74,7 +74,7 @@ const ContactForm = () => {
           <input
             type="text"
             id="name"
-            className="mt-1 block w-full p-2 border-[#4D869C] border rounded-md text-sm focus:outline-secondry"
+            className="mt-1 block w-full p-2 border-[#4D869C] border text-black rounded-md text-sm focus:outline-secondry"
             placeholder="Your name"
             value={formData.name}
             onChange={handleChange}
@@ -88,7 +88,7 @@ const ContactForm = () => {
           <input
             type="email"
             id="email"
-            className="mt-1 block w-full p-2 border-[#4D869C] border rounded-md text-sm focus:outline-secondry"
+            className="mt-1 block w-full p-2 border-[#4D869C] text-black border rounded-md text-sm focus:outline-secondry"
             placeholder="Your email"
             value={formData.email}
             onChange={handleChange}
@@ -102,7 +102,7 @@ const ContactForm = () => {
           <input
             type="text"
             id="companyName"
-            className="mt-1 block w-full p-2 border-[#4D869C] border rounded-md text-sm focus:outline-secondry"
+            className="mt-1 block w-full p-2 border-[#4D869C] text-black border rounded-md text-sm focus:outline-secondry"
             placeholder="Company Name"
             value={formData.companyName}
             onChange={handleChange}
@@ -115,7 +115,7 @@ const ContactForm = () => {
           </label>
           <select
             id="subject"
-            className="mt-1 block w-full p-2 border-[#4D869C] border rounded-md text-sm focus:outline-secondry text-gray-500"
+            className="mt-1 block w-full p-2 border-[#4D869C] border text-black rounded-md text-sm focus:outline-secondry "
             value={formData.subject}
             onChange={handleChange}
             required
