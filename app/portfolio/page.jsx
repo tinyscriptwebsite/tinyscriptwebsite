@@ -62,7 +62,7 @@ const page = () => {
       <div className="text-white">
         <Header />
       </div>
-      <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 sm:pt-32 pt-28">
+      <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 pt-32">
         {/* Hero Section */}
         <section className="flex justify-between items-center md:flex-row flex-col-reverse">
           <div className="text-center md:w-[45%] w-full">
@@ -99,14 +99,14 @@ const page = () => {
               {cards.map((card, index) => (
                 <div
                   key={index}
-                  className={`relative bg-white hover:shadow-[0px_0px_15px_0px_rgba(16,184,219,0.2)] duration-500 p-8 pb-0 rounded-2xl flex flex-col ${
-                    card.isLink ? "justify-between" : "justify-evenly"
-                  }  items-center gap-4 md:min-h-[27rem]`}
+                  className={`${
+                    !card.isLink ? "pb-8" : ""
+                  } relative bg-white p-8 pb-0 rounded-2xl flex flex-col hover:shadow-[0px_0px_30px_0px_rgba(16,184,219,0.2)] duration-500 items-center gap-8  max-w-[410px] mx-auto`}
                 >
                   <div className="">
                     <Image
                       src={card.image}
-                      className="w-4/5 mx-auto"
+                      className="h-[4rem] w-full mx-auto"
                       alt={`Card ${index + 1}`}
                     />
                   </div>

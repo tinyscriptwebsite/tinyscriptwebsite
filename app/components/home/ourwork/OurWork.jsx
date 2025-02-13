@@ -44,24 +44,24 @@ const OurWork = () => {
           your needs."
         </p>
       </div>
-      <div className="flex flex-col md:flex-row gap-6 ">
+      <div className="flex flex-col flex-wrap md:flex-row gap-6 justify-around">
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           {cards.map((card, index) => (
             <div
               key={index}
-              className={`relative bg-white p-8 pb-0 rounded-2xl flex flex-col hover:shadow-[0px_0px_30px_0px_rgba(16,184,219,0.2)] duration-500 ${
-                card.isLink ? "justify-between" : "justify-evenly mt-[1px]"
-              }  items-center gap-4 md:h-[27rem] max-w-[410px]`}
+              className={`${
+                !card.isLink ? "pb-8" : ""
+              } relative bg-white p-8 pb-0 rounded-2xl flex flex-col hover:shadow-[0px_0px_30px_0px_rgba(16,184,219,0.2)] duration-500 items-center gap-8 md:min-h-[27rem] max-w-[410px] mx-auto`}
             >
-              <div className={`${card.isLink ? "" : "-mt-[3.7rem]"} `}>
+              <div className={``}>
                 <Image
                   src={card.image}
-                  className="w-4/5 mx-auto"
+                  className="h-[4rem] w-full mx-auto"
                   alt={`Card ${index + 1}`}
                 />
               </div>
               <div
-                className={`flex flex-col items-start -mt-[3rem] justify-start md:items-start text-center md:text-start gap-4`}
+                className={`flex flex-col items-start justify-start md:items-start text-center md:text-start gap-4`}
               >
                 <h4 className="text-xl md:text-2xl text-secondry">
                   {card.title}

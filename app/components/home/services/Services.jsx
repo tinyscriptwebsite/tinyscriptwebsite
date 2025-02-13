@@ -20,7 +20,7 @@ const Services = () => {
       link: "/services/webdevelopment",
     },
     {
-      title: "UI-UX Desiner",
+      title: "UI-UX Designer",
       description:
         "At Tiny Script Soft Tech, we craft digital symphonies, blending design finesse with developmental prowess to...",
       icon: uiuxIcon,

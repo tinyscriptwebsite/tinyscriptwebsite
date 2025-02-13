@@ -46,16 +46,20 @@ const Services = () => {
     <>
       <div className="w-full m-auto mt-[6vh]">
         <Header />
-        <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-16 sm:pt-32 pt-28">
+        <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-16 pt-32">
           <section className="flex justify-between items-center md:flex-row flex-col-reverse md:gap-0 gap-8">
             <div>
-              <Image src={servicesofferImage} alt="Web Development" />
+              <Image
+                src={servicesofferImage}
+                alt="Web Development"
+                className="w-4/5 mx-auto my-2"
+              />
             </div>
             <div className="text-center md:w-[45%] w-full">
               <h1 className="text-2xl md:text-4xl font-semibold">
                 Services We Offer
               </h1>
-              <h2 className="md:text-2xl md:text-center ml-[6.5rem] text-[30px] w-[65%] justify-center md:mt-6 mt-4 font-medium text-secondry">
+              <h2 className="md:text-2xl md:text-center md:ml-[6.5rem] text-xl w-4/5 mx-auto md:w-[65%] justify-center md:mt-6 mt-4 font-medium text-secondry">
                 Empowering Your Tech Dreams, One Byte At A Time!
               </h2>
               <p className="text-lg md:mt-4 mt-2 md:text-center text-justify">

@@ -118,9 +118,9 @@ function Page() {
       <div className="text-white">
         <Header />
       </div>
-      <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 sm:pt-32 pt-28">
+      <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 pt-32">
         {isAdmin && (
-          <div className="flex justify-end fixed -right-32 -top-12 z-10 md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 sm:pt-32 pt-28">
+          <div className="flex justify-end fixed -right-32 -top-12 z-10 md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 pt-32">
             {isAdmin && (
               <div className="">
                 <Dropdown

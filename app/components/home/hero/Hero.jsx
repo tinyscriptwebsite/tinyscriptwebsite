@@ -16,10 +16,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="min-h-screen grid place-items-center bg-black text-white md:px-[7%] sm:px-[5%] px-[3%] md:pb-0 pb-8 md:pt-0 pt-24 rounded-b-3xl">
+    <div className="min-h-screen grid place-items-center bg-black text-white md:px-[7%] sm:px-[5%] px-[3%] md:pb-0 pb-8 md:pt-0 pt-24">
       <section className="flex justify-between gap-16 items-center md:flex-row flex-col mt-8 ">
         <div
-          className={`text-center flex flex-col gap-6 overflow-hidden ${
+          className={`text-center flex flex-col gap-6 ${
             loaded ? "loaded" : ""
           }`}
         >

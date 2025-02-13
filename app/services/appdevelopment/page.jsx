@@ -21,11 +21,11 @@ const page = () => {
       <div className="text-white">
         <Header />
       </div>
-      <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 sm:pt-32 pt-28">
+      <div className="md:px-[10%] sm:px-[5%] px-[3%] md:pt-40 pt-32">
         {/* Hero Section */}
         <section className="flex justify-between items-center md:flex-row flex-col-reverse">
           <div>
-            <Image src={appdev} alt="Web Development" />
+            <Image src={appdev} alt="Web Development" className="w-4/5 mx-auto my-2" />
           </div>
           <div className="text-center md:w-[45%] w-full">
             <h1 className="text-2xl md:text-4xl font-semibold text-secondry">
