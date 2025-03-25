@@ -5,6 +5,7 @@ import Image from "next/image";
 import portfolio from "../assets/newfigma/portfolio/Portfolio.svg";
 import condo from "../assets/newfigma/portfolio/CondominiumLogo.png";
 import Attendance from "../assets/newfigma/portfolio/AttendancePortalLogo.png";
+import phoenix from "../assets/newfigma/portfolio/Phoenix Paris.png";
 import shivoham from "../assets/newfigma/portfolio/shivohamphotography.png";
 import vision from "../assets/newfigma/portfolio/vison.png";
 import prabhuseva from "../assets/newfigma/portfolio/Prabhusewa.png";
@@ -55,6 +56,13 @@ const page = () => {
       isLink: true,
       link: "https://wellwalla.com/",
     },
+    {
+      title: "Phoenix Paris",
+      desc: "At Phoenix Paris Perfumes, they blend the finest ingredients with artistic precision to create signature scents that define individuality and sophistication...",
+      image: phoenix,
+      isLink: true,
+      link: "https://phoenixparis.com/",
+    },
   ];
 
   return (
@@ -103,10 +111,10 @@ const page = () => {
                     !card.isLink ? "pb-8" : ""
                   } relative bg-white p-8 pb-0 rounded-2xl flex flex-col hover:shadow-[0px_0px_30px_0px_rgba(16,184,219,0.2)] duration-500 items-center gap-8  max-w-[410px] mx-auto`}
                 >
-                  <div className="">
+                  <div className="h-12">
                     <Image
                       src={card.image}
-                      className="h-[4rem] w-full mx-auto"
+                      className=" w-fit h-fit mx-auto"
                       alt={`Card ${index + 1}`}
                     />
                   </div>
