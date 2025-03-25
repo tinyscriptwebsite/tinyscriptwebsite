@@ -111,10 +111,10 @@ const page = () => {
                     !card.isLink ? "pb-8" : ""
                   } relative bg-white p-8 pb-0 rounded-2xl flex flex-col hover:shadow-[0px_0px_30px_0px_rgba(16,184,219,0.2)] duration-500 items-center gap-8  max-w-[410px] mx-auto`}
                 >
-                  <div className="h-12">
+                  <div className="h-20">
                     <Image
                       src={card.image}
-                      className=" w-fit h-fit mx-auto"
+                      className=" h-full w-full mx-auto object-contain"
                       alt={`Card ${index + 1}`}
                     />
                   </div>
