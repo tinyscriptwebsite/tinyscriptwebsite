@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
-import OurWorkCard from "../../../common/OurWorkCard";
-import CpLogo from "../../../assets/newfigma/CPLogo.png";
-import AttendancePortalLogo from "../../../assets/newfigma/AttendancePortalLogo.png";
-import ShivohamPhotographyLogo from "../../../assets/newfigma/shivohamphotography Logo.png";
+import CpLogo from "../../../assets/newfigma/portfolio/CondominiumLogo.png";
+import AttendancePortalLogo from "../../../assets/newfigma/portfolio/AttendancePortalLogo.png";
+import ShivohamPhotographyLogo from "../../../assets/newfigma/portfolio/shivohamphotography.png";
 import Image from "next/image";
 import BarIcon from "../../../assets/newfigma/Bar.svg";
 import Link from "next/link";
