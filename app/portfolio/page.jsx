@@ -9,8 +9,6 @@ import phoenix from "../assets/newfigma/portfolio/Phoenix Paris.png";
 import shivoham from "../assets/newfigma/portfolio/shivohamphotography.png";
 import vision from "../assets/newfigma/portfolio/vison.png";
 import Wellwalla from "../assets/newfigma/portfolio/wellwalla.png";
-import begshop from "../assets/newfigma/portfolio/Bagshop.png";
-import dasvelises from "../assets/newfigma/portfolio/dasvelises.webp";
 import ubeg from "../assets/newfigma/portfolio/ubag.avif";
 import swiftdrop from "../assets/newfigma/portfolio/swiftdrop.png";
 import bar from "../assets/newfigma/Bar.svg";
@@ -62,25 +60,11 @@ const page = () => {
       link: "https://phoenixparis.com/",
     },
     {
-      title: "BegShop",
-      desc: "A professionally designed e-commerce website built for wholesale buyers in the travel and luggage industry. BagShop.fr showcases a wide collection of wholesale suitcases, backpacks, and travel accessories with a clean....",
-      image: begshop,
-      isLink: true,
-      link: "https://bagshop.fr/",
-    },
-    {
       title: "Urban Bag",
       desc: "Urban-Bag.fr is a French online retailer specializing in high-quality men's backpacks designed for business, travel, and city life. Their collection includes business backpacks, carry-on bags, urban daypacks...",
       image: ubeg,
       isLink: true,
       link: "https://urban-bag.fr/",
-    },
-    {
-      title: "Des Valises Et Moi",
-      desc: "DesValisesEtMoi.fr is a French e-commerce platform offering a wide selection of luggage, suitcases, and travel accessories. The website features various categories, including cabin luggage...",
-      image: dasvelises,
-      isLink: true,
-      link: "https://desvalisesetmoi.fr/",
     },
     {
       title: "SwiftDrop",
